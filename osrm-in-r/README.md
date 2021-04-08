@@ -59,7 +59,19 @@ osrm-contract new-york-latest.osrm
 osrm-routed new-york-latest.osrm
 ```
 
-Note that in the osrm-routed command, you may want to include the flag `--max-table-size=X` with a size `X` of your choosing, or else you might get the error `The OSRM server returned an error: Error: object of type 'closure' is not subsettable` if the table you are trying to produce exceeds the default maximum.
+## Max Table Size 
+
+In the osrm-routed command, you may want to include the flag `--max-table-size=X` with a size `X` of your choosing, or else you might get the error `The OSRM server returned an error: Error: object of type 'closure' is not subsettable` if the table you are trying to produce exceeds the default maximum.
+
+## Profiles 
+
+It seems like you need to compile the database every time you want to use a new profile ("car" seems to be the default). To specify a profile such as "foot", do the following: 
+
+```
+osrm-extract new-york-latest.osm.pbf --profile ./profiles/foot.lua
+osrm-contract new-york-latest.osrm
+osrm-routed new-york-latest.osrm
+```
 
 # Accessing the local OSRM instance in R 
 
