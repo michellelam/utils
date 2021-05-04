@@ -5,13 +5,13 @@ This document will provide tidbits of information and explain any code that is u
 
 # Counties 
 
-Name | FIPS State Code  | Borough Num 
----- | ---------------- | -----------
-Bronx | 5 | 2
-Kings/Brooklyn | 47 | 3
-New York | 61 | 1
-Queens | 81 | 4
-Richmond/Staten Island | 85 | 5
+Name | FIPS State Code  | Borough Num | ZTRAX County |
+---- | ---------------- | ----------- | ------------
+Bronx | 5 | 2 | BRONX
+Kings/Brooklyn | 47 | 3 | KINGS
+New York | 61 | 1 | NEW YORK
+Queens | 81 | 4 | QUEENS
+Richmond/Staten Island | 85 | 5 | RICHMOND
 
 # ZTRAX data 
 
