@@ -15,15 +15,12 @@ Richmond/Staten Island | 85 | 5 | RICHMOND
 
 # ZTRAX data 
 
-Expanding upon [ZTRAX FAQs](https://www.zillow.com/research/ztrax/ztrax-faqs/).
-
-## ZTrans vs. ZAsmt 
+Information from [ZTRAX FAQs](https://www.zillow.com/research/ztrax/ztrax-faqs/).
 
 Dataset | ZTrans | ZAsmt 
 ------- | ------ | -----
 Unique IDs | TransId | RowID (parcel), BuildingOrImprovementNumber (building in parcel)
 Data source | From legal proceedings | From county assessor
-Sales Data | Generally more updated | 
 
 In ZTrans data, to get arms-length transactions which best represents market price, filter through: 
 - DataClassStndCode ('H' deed with concurrent mortgage)
@@ -32,7 +29,5 @@ In ZTrans data, to get arms-length transactions which best represents market pri
 - LoanTypeStndCode ('RE' refinance)
 - PropertyUseStndCode
 
-## Dates 
-
-- Use DocumentDate (o/w SignatureDate, RecordingDate)
+For dates, use DocumentDate (o/w SignatureDate, RecordingDate)
 
