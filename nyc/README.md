@@ -5,7 +5,9 @@ This document will provide tidbits of information and explain any code that is u
 
 # Counties 
 
-Name | FIPS State Code  | Borough Num | ZTRAX County |
+The FIPS Code for New York state is 36.
+
+Name | FIPS County Code  | Borough Num | ZTRAX County |
 ---- | ---------------- | ----------- | ------------
 Bronx | 5 | 2 | BRONX
 Kings/Brooklyn | 47 | 3 | KINGS
