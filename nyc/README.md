@@ -15,6 +15,24 @@ New York | 61 | 1 | NEW YORK
 Queens | 81 | 4 | QUEENS
 Richmond/Staten Island | 85 | 5 | RICHMOND
 
+# Census Geographic Identifiers 
+
+- A summary of this [Census documentation](https://www.census.gov/programs-surveys/geography/guidance/geo-identifiers.html). 
+- Block group code is the first digit of Census block code. 
+- Block codes may contain a one character suffix.
+- Helpful Stata code: 
+    - Convert number to string with leading zeros, 5 characters total: `gen x = string(x_num, "%05.0f")`
+    - Convert number to string with lagging zeros, 5 characters total: `gen x = x_num + substr(str(x_num), 1, 5 - length(x_num))`
+
+    
+Area Type | Number of Digits | Example | Example GEOID 
+--------- | ---------------- | ------- | -------------
+State | 2 | Texas | 48 
+County | 3 | Harris County, TX | 201
+Tract | 6 | 2231 in Harris County, TX | 223100
+Block Group | 1 | Block Group 1 in Tract 2231 in Harris County, TX | 1 
+Block | 4 | Block 1050 in Tract 2231 in Harris County, TX | 1050 
+
 # ZTRAX data 
 
 Information from [ZTRAX FAQs](https://www.zillow.com/research/ztrax/ztrax-faqs/).
