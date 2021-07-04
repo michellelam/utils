@@ -22,7 +22,7 @@ Richmond/Staten Island | 85 | 5 | RICHMOND
 - Block codes may contain a one character suffix.
 - Helpful Stata code: 
     - Convert number to string with leading zeros, 5 characters total: `gen x = string(x_num, "%05.0f")`
-    - Convert number to string with lagging zeros, 5 characters total: `gen x = x_num + substr(str(x_num), 1, 5 - length(x_num))`
+    - Convert number to string with lagging zeros, 5 characters total: `gen x = string(x_num) + substr("00000", 1, 5 - length(string(x_num)))`
 
     
 Area Type | Number of Digits | Example | Example GEOID 
