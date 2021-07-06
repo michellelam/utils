@@ -33,6 +33,10 @@ Tract | 6 | 2231 in Harris County, TX | 223100
 Block Group | 1 | Block Group 1 in Tract 2231 in Harris County, TX | 1 
 Block | 4 | Block 1050 in Tract 2231 in Harris County, TX | 1050 
 
+# Segregation Statistics 
+
+Sources from [here](https://www.census.gov/topics/housing/housing-patterns/guidance/appendix-b.html) and Rothwell, Massey 2009. 
+
 # ZTRAX data 
 
 Information from [ZTRAX FAQs](https://www.zillow.com/research/ztrax/ztrax-faqs/).
