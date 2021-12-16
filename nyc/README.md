@@ -7,13 +7,13 @@ This document will provide tidbits of information and explain any code that is u
 
 The FIPS Code for New York state is 36.
 
-Name | FIPS County Code  | Borough Num | ZTRAX County |
----- | ---------------- | ----------- | ------------
-Bronx | 5 | 2 | BRONX
-Kings/Brooklyn | 47 | 3 | KINGS
-New York | 61 | 1 | NEW YORK
-Queens | 81 | 4 | QUEENS
-Richmond/Staten Island | 85 | 5 | RICHMOND
+Name | FIPS County Code  | Borough Num | ZTRAX County | NY FOIL |
+---- | ---------------- | ----------- | ------------ | -------- |
+Bronx | 5 | 2 | BRONX | 3 
+Kings/Brooklyn | 47 | 3 | KINGS | 24
+New York | 61 | 1 | NEW YORK | 31 
+Queens | 81 | 4 | QUEENS | 41
+Richmond/Staten Island | 85 | 5 | RICHMOND | 43
 
 # Census Geographic Identifiers 
 
