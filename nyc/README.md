@@ -3,7 +3,7 @@
 
 This document will provide tidbits of information and explain any code that is uploaded to NYC. 
 
-# Counties 
+# NYC Counties 
 
 The FIPS Code for New York state is 36.
 
@@ -14,6 +14,14 @@ Kings/Brooklyn | 47 | 3 | KINGS | 24
 New York | 61 | 1 | NEW YORK | 31 
 Queens | 81 | 4 | QUEENS | 41
 Richmond/Staten Island | 85 | 5 | RICHMOND | 43
+
+# NYC BBL 
+
+- Borough, Block, Lot
+- Borough: 1 digit 
+- Block: 1-5 digits 
+- Lot: 1-4 digits
+- Leading zeros inserted; total of 10 digits
 
 # Census Geographic Identifiers 
 
@@ -60,7 +68,7 @@ Syntax:
  long as locCutoff is < O(~2000km), probably.
 
  ```
- 
+
  [spatial_hac_iv](http://fmwww.bc.edu/repec/bocode/s/spatial_hac_iv.sthlp)
  
  ```
@@ -92,3 +100,10 @@ In ZTrans data, to get arms-length transactions which best represents market pri
 
 For dates, use DocumentDate (o/w SignatureDate, RecordingDate)
 
+ # MATLAB 
+ 
+ - [fmincon](https://www.mathworks.com/help/optim/ug/fmincon.html)
+    - [Choosing algorithm](https://www.mathworks.com/help/optim/ug/choosing-the-algorithm.html#bsbwxm7) 
+    - [Tolerances and stopping criteria](https://www.mathworks.com/help/optim/ug/tolerances-and-stopping-criteria.html)
+    - [Nonlinear optimization](http://math.lbl.gov/~mjzahr/content/cme292/aut14/lec/lec04.pdf)
+- [Tuning Matlab](http://www.bu.edu/tech/files/2014/06/matlabTuning.pdf)
