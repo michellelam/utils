@@ -60,3 +60,10 @@ In ZTrans data, to get arms-length transactions which best represents market pri
 For dates, use DocumentDate (o/w SignatureDate, RecordingDate)
 
  
+# Definitions
+
+https://www1.nyc.gov/site/planning/zoning/glossary.page
+
+**Contextual Zoning** 
+
+Contextual zoning regulates the height and bulk of new buildings, their setback from the street line, and their width along the street frontage, to produce buildings that are consistent with existing neighborhood character. Residential and commercial districts with an A, B, D or X suffix are contextual zoning districts.
