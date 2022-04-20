@@ -3,6 +3,13 @@
 
 This document will provide tidbits of information and explain any code that is uploaded to NYC. 
 
+# PLUTO Coordinates
+
+The XY coordinates are expressed in the [New York-Long Island State Plane coordinate system](https://epsg.io/2263).
+- Unit: US survey foot
+- Remarks: State law defines system in US survey feet. Federal definition is metric - see code 32118. For applications with an accuracy of better than 3 feet, replaced by NAD83(HARN) / SPCS.
+- Area of use: United States (USA) - New York - counties of Bronx; Kings; Nassau; New York; Queens; Richmond; Suffolk.
+
 # NYC Counties 
 
 The FIPS Code for New York state is 36.
